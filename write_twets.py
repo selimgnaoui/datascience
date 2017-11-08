@@ -4,8 +4,8 @@ class Write_Tweest(object):
     def __init__(self):
       
       connection = pymongo.MongoClient('ds237475.mlab.com',37475)
-      self.db = connection['XXXX']
-      self.db.authenticate('XXXXX', 'XXXXXX')
+      self.db = connection['test2']
+      print(self.db.authenticate('aaaaa', 'aaaaa'))
        
     def savetodb(self,tweets):
        (self.db.us.insert_many(tweets))
