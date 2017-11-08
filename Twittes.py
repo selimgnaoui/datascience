@@ -10,8 +10,8 @@ class TwitterClient(object):
     def __init__(self):
         '''
         Class constructor or initialization method.
-        '''
-        # keys and tokens from the Twitter Dev Console
+        ''' 
+        # keys    and tokens from the Twitter Dev Console
         consumer_key = 'C2ldNUzIEzkdvasD3tlUXWN5W'
         consumer_secret = 'dMa12xOxlWFwo0qcRrJMDbM4ZDSNZslYg8NAcGZeuEFY12RIDD'
         access_token = '922580109185421318-jiCITB5NuplKVmw37sEDbfjvQGF0kzc'
