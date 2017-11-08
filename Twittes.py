@@ -66,8 +66,7 @@ class TwitterClient(object):
                 # saving text of tweet
                 parsed_tweet['text'] = tweet.text
                 # saving sentiment of tweet
-                parsed_tweet['sentiment'] = self.get_tweet_sentiment(tweet.text)
- 
+                parsed_tweet['lang'] = tweet.lang
                 # appending parsed tweet to tweets list
                 if tweet.retweet_count > 0:
                     # if tweet has retweets, ensure that it is appended only once
