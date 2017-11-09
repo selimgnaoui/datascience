@@ -13,10 +13,10 @@ class TwitterClient(object):
 
         ''' 
         # keys    and tokens from the Twitter Dev Console
-        consumer_key = 'xx'
-        consumer_secret = 'xx'
-        access_token = 'xx'
-        access_token_secret = 'xx'
+        consumer_key = 'XXs'
+        consumer_secret = 'XX'
+        access_token = 'XX'
+        access_token_secret = 'XX'
 
  
         # attempt authentication
